@@ -1,0 +1,188 @@
+<!-- Agrega aquí la estructura HTML de tu sitio web -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Freelancer</title>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400|Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="m-0">
+    <!--BARRA DE MENU-->
+    <nav>
+        <div class="text-uppercase menu montserrat">
+            <a href="#home" class="inline-block logo">start bootstrap</a>
+            <ul class="inline-block m-0">
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>  
+        </div>
+    </nav>
+    <!--HOME-->
+    <section class="home">
+        <a name="home"></a>
+        <div>
+            <img src="assets/images/profile.png">
+            <div class="text-home"> 
+                <h1 class="text-uppercase montserrat m-0">start bootstrap</h1>
+                <div class="star-line">
+                    <hr>
+                    <div class="star"><i class="fa fa-star" aria-hidden="true"></i></div>
+                </div>
+                <p class="lato">Web Developer - Graphic Artist - User Experience Designer</p>
+            </div>
+        </div>
+    </section>
+    <!--PORTFOLIO-->
+    <section class="portfolio">
+        <a name="portfolio"></a>
+        <div>
+            <h2 class="h2-format text-uppercase montserrat">Portfolio</h2>
+            <div class="star-line">
+                <hr>
+                <div class="star"><i class="fa fa-star" aria-hidden="true"></i></div>
+            </div>
+            <div class="img-portfolio"> 
+                <div class="row-img">
+                    <div class="marca">
+                        <div class="search">
+                            <i class="fa fa-search-plus fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <a href=""><img src="assets/images/portfolio/cabin.png" alt="cabin"></a>
+                    <div class="marca">
+                        <div class="search">
+                            <i class="fa fa-search-plus fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <a href=""><img src="assets/images/portfolio/cake.png" alt="cake"></a>
+                    <div class="marca">
+                        <div class="search">
+                            <i class="fa fa-search-plus fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <a href=""><img src="assets/images/portfolio/circus.png" alt="circus"></a>
+                </div>
+                <div class="row-img">
+                    <div class="marca">
+                        <div class="search">
+                            <i class="fa fa-search-plus fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <a href=""><img src="assets/images/portfolio/game.png" alt="cabin"></a>
+                    <div class="marca">
+                        <div class="search">
+                            <i class="fa fa-search-plus fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <a href=""><img src="assets/images/portfolio/safe.png" alt="cake"></a>
+                    <div class="marca">
+                        <div class="search">
+                            <i class="fa fa-search-plus fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <a href=""><img src="assets/images/portfolio/submarine.png" alt="circus"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--ABOUT-->
+    <section class="about">
+        <a name="about"></a>
+        <h2 class="h2-format text-uppercase montserrat">about</h2>
+        <div class="star-line">
+            <hr>
+            <div class="star"><i class="fa fa-star" aria-hidden="true"></i></div>
+        </div>
+        <div class="about-text">
+            <div class="column">
+                <p class="lato">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
+            </div>
+            <div class="column">
+                <p class="lato">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            </div>
+        </div>
+        <a href="#" class="lato download"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</a>
+    </section>
+    <!--CONTACT-->
+    <section class="contact">
+        <a name="contact"></a>
+        <h2 class="h2-format text-uppercase montserrat">contact me</h2>
+        <div class="star-line">
+            <hr>
+            <div class="star"><i class="fa fa-star" aria-hidden="true"></i></div>
+        </div>
+        <form>
+            <div class="container">
+                <div>
+                    <label for="name" class="">Name</label>
+                </div>
+                <div>
+                    <input class="lato" id="name" name="name" type="text" min="3" placeholder="Name" required>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <label for="email" class="">Email Address</label>
+                </div>
+                <div>
+                    <input class="lato" id="email" name="email" type="email" min="5" max="20" placeholder="Email Address" required>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <label for="phoneNumber" class="">Phone Number</label>
+                </div>
+                <div>
+                    <input class="lato" id="phoneNumber" name="phoneNumber" type="text" min="5" max="20" placeholder="Phone Number" required>
+                </div>
+            </div>
+            <div class="container">
+                <div>
+                    <label for="messagge" class="">Mesagge</label>
+                </div>
+                <div>
+                    <textarea class="lato" name="message" id="message" cols="30" rows="7" placeholder="Message" required></textarea>
+                </div>
+            </div>
+            <div>
+                <div class="button">
+                    <input value="Send" type="submit">
+                </div>
+            </div>
+        </form>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="footer-box">
+            <div class="address">
+                <h2 class="text-uppercase montserrat">location</h2>                   
+                <p class="lato mb-0">3481 Melrose Place</p> 
+                <p class="lato mt-0">Beverly Hills, CA 90210</p>
+            </div>                
+            <div class="rs">
+                <h2 class="text-uppercase montserrat">around the web</h2>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="freelancer">
+                <h2 class="text-uppercase montserrat">about freelancer</h2>
+                <p class="lato">Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap.</a></p>
+            </div>
+        </div>
+        <div class="copyright lato">
+                <p> Copyright &#169; Your Website 2017</p>
+        </div>
+    </footer>               
+    
+</body>
+</html>
