@@ -1,6 +1,6 @@
 # Freelancer
 
-#Maquetado web de la pagina freelancer con HTML & CSS_
+# Maquetado web de la pagina freelancer con HTML & CSS_
 
 
 - Encontrarás un archivo base `index.html` el cual contiene la estructura HTML del proyecto.
@@ -32,8 +32,3 @@
   * Esta web utiliza 2 tipografías: `Montserrat` y `Lato`.
 
   * La paleta de colores usados son los siguientes: `#2c3e50`, `#18bc9c`,`#212529`.
-
-A continuación se muestra una vista previa del producto final:
-
-![Freelancer Website](docs/fullpage.png)
-
